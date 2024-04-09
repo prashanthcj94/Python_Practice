@@ -1,3 +1,5 @@
+#List are mutable and can be changed after declared
+
 myList = ["prashanth","ishwarya","jimmy"]
 print(myList)
 
@@ -47,3 +49,16 @@ print(copy4)
 
 square = [i*i for i in newList2]  #includes squuare
 print(square)
+
+print(newList2.count(1))        #Count the element
+
+print(newList2.index(1))        #finds the index of element
+newList2[3] = 998
+
+print(newList2)
+
+mapii = [8,5,3]
+first,sec,third  = mapii        # maps the element according to the indexes
+print(first)
+print(sec)
+print(third)
