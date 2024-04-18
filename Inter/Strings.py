@@ -33,12 +33,12 @@ print("".join(li))
 print("-----".join(li))
 
 input1 = 1000101
-list1 = input1.__str__()
+list1 = str(input1)
 print(list1[2])
 
 a= "prashanth"
 b = 98.9999999
 print("Hi i'm %s" % a)
-print("Hi i'm {} and i scored {:.2f}".format(a,b))             #Formating
+print("Hi i'm {} and i scored {:.1f}".format(a,b))             #Formating
 print(f"Hi i'm {a} and i scored {b}")
 
